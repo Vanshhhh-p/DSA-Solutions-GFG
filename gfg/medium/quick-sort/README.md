@@ -31,7 +31,7 @@ Explanation: All elements are identical, so the array remains unchanged.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-22T11:51:49.934Z  
+**Submitted:** 2026-10-22T12:14:57.797Z  
 
 ```java
 class Solution {
@@ -63,6 +63,7 @@ class Solution {
         int pivotElement = arr[s];
         
         // pivot element should be placed at its correct position
+        // count strategey || other -> lomuto n Hoare
         int count = 0;
         for (int i = s+1; i <= e; i++) {
             if (arr[i] <= pivotElement) {
