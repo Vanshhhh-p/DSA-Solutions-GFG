@@ -27,6 +27,7 @@ class Solution {
         int pivotElement = arr[s];
         
         // pivot element should be placed at its correct position
+        // count strategey || other -> lomuto n Hoare
         int count = 0;
         for (int i = s+1; i <= e; i++) {
             if (arr[i] <= pivotElement) {
