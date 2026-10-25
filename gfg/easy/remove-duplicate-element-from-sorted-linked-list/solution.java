@@ -11,6 +11,7 @@ class Node {
 */
 class Solution {
     Node removeDuplicates(Node head) {
+        if (head == null || head.next == null) return head;
         Node prev = head;
         Node curr = head.next;
         
