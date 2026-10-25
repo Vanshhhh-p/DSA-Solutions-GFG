@@ -30,7 +30,7 @@ Explanation: In the given linked list  2 -> 2 -> 2 -> 2, 2 is the only element a
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-25T11:14:14.268Z  
+**Submitted:** 2026-10-25T11:16:31.749Z  
 
 ```java
 /* Structure of linked list Node
@@ -46,6 +46,7 @@ class Node {
 */
 class Solution {
     Node removeDuplicates(Node head) {
+        if (head == null || head.next == null) return head;
         Node prev = head;
         Node curr = head.next;
         
