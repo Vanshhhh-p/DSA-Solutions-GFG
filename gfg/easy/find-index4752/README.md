@@ -36,12 +36,12 @@ Explanation: Since 2 does not appear in the array, we will return -1 for both th
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-03T07:42:05.033Z  
+**Submitted:** 2026-11-03T07:44:17.006Z  
 
 ```java
 class Solution {
     public ArrayList<Integer> findIndex(int[] arr, int key) {
-        ArrayList<Integer> ans = new ArrayList<>(2);
+        ArrayList<Integer> ans = new ArrayList<>();
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == key) {
