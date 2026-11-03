@@ -36,7 +36,7 @@ Explanation: Since 2 does not appear in the array, we will return -1 for both th
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-03T07:44:17.006Z  
+**Submitted:** 2026-11-03T07:44:34.727Z  
 
 ```java
 class Solution {
