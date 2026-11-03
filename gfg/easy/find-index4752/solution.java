@@ -1,6 +1,6 @@
 class Solution {
     public ArrayList<Integer> findIndex(int[] arr, int key) {
-        ArrayList<Integer> ans = new ArrayList<>(2);
+        ArrayList<Integer> ans = new ArrayList<>();
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == key) {
